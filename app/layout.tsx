@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/shared/header";
 
 // Load Nunito font once with all needed weights and subsets
 const nunito = Nunito({
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={nunito.variable}>
       <body className="font-sans antialiased">
+        <Header/>
         {children}
       </body>
     </html>

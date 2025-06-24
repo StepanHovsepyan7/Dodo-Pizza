@@ -42,7 +42,12 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 }
-
+button{
+  cursor: pointer;
+}
+.shopBtn:hover{
+  background-color: #FE5F00;
+}
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
