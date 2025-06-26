@@ -20,13 +20,114 @@ export default function Home() {
 
           <div className="flex-1">
             <div className="flex flex-col gap-16">
-              <ProductsGroupList title="пиццы" items={[{
-                id: 1,
-                name: 'Сырный цыпленок',
-                imageUrl: './pizza1.png',
-                price: 550,
-                items: [{ price: 550 }]
-              }]} categoryId={1} />
+              <ProductsGroupList title="Пиццы"
+                items={[{
+                  id: 1,
+                  name: 'Сырный цыпленок',
+                  imageUrl: './pizza1.png',
+                  price: 550,
+                  items: [{ price: 550 }]
+                }, {
+                  id: 2,
+                  name: 'Пепперони',
+                  imageUrl: './pizza1.png',
+                  price: 600,
+                  items: [{ price: 600 }]
+                }, {
+                  id: 3,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                }]} categoryId={1} /> 
+                <ProductsGroupList title="Комбо"
+                items={[{
+                  id: 1,
+                  name: 'Сырный цыпленок',
+                  imageUrl: './pizza1.png',
+                  price: 550,
+                  items: [{ price: 550 }]
+                }, {
+                  id: 2,
+                  name: 'Пепперони',
+                  imageUrl: './pizza1.png',
+                  price: 600,
+                  items: [{ price: 600 }]
+                }, {
+                  id: 3,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+                 {
+                  id: 4,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+                 {
+                  id: 5,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+
+                 {
+                  id: 6,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                }
+                
+                ]} categoryId={2} /> 
+                 <ProductsGroupList title="Закуски"
+                items={[{
+                  id: 1,
+                  name: 'Сырный цыпленок',
+                  imageUrl: './pizza1.png',
+                  price: 550,
+                  items: [{ price: 550 }]
+                }, {
+                  id: 2,
+                  name: 'Пепперони',
+                  imageUrl: './pizza1.png',
+                  price: 600,
+                  items: [{ price: 600 }]
+                }, {
+                  id: 3,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+                 {
+                  id: 4,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+                 {
+                  id: 5,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                },
+
+                 {
+                  id: 6,
+                  name: 'Маргарита',
+                  imageUrl: './pizza1.png',
+                  price: 500,
+                  items: [{ price: 500 }]
+                }
+                
+                ]} categoryId={3} /> 
             </div>
           </div>
         </div>
