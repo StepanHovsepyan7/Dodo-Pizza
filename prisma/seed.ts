@@ -70,7 +70,7 @@ async function up() {
 
     const pizza1 = await prisma.product.create({
         data: {
-            name: 'Henneponw @peu',
+            name: 'Пеперони фреш',
             imageUrl:
                 'https://media.dodostatic.net/image/r:233x233/11EE7D61304FAF5A98A6958F2BB2D260.webp',
             categoryId: 1,
@@ -82,7 +82,7 @@ async function up() {
 
     const pizza2 = await prisma.product.create({
         data: {
-            name: 'Cupная',
+            name: 'сырный',
             imageUrl:
                 'https://media.dodostatic.net/image/r:233x233/11EE7D610CF7E265B7C72BE5AE757CA7.webp',
             categoryId: 1,
