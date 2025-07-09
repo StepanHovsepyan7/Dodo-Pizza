@@ -14,6 +14,7 @@ model User {
     email    String   @unique
     password String
     role     UserRole @default(USER)
+    verified DateTime
 
     provider      String?
     providerId    String?
@@ -42,11 +43,13 @@ model Product {
     name     String
     imageUrl String
 
-    ingerdients Ingredient[]
+    ingredients Ingredient[]
     items       ProductItem[]
 
     category   Category @relation(fields: [categoryId], references: [id])
     categoryId Int
+
+    
 
     createdAt DateTime @default(now())
     updateAt  DateTime @updatedAt
@@ -72,7 +75,7 @@ model Ingredient {
     price    Int
     imageUrl String
 
-    products  Product[]
+    products Product[]
     cartItems CartItem[]
 
     createdAt DateTime @default(now())
