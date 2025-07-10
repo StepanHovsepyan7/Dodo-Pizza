@@ -162,4 +162,118 @@ export const products = [
         categoryId: 2
 
     },
+
+
+    {
+        name: 'Americano',
+        imageUrl:
+            './americano.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 4
+
+    },
+
+
+    {
+        name: 'Beef Suya Pocket',
+        imageUrl:
+            './beefsuyapocket.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 3
+
+    },
+
+
+    {
+        name: 'Chicken Suya',
+        imageUrl:
+            './chickenSuya.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 3
+
+    },
+
+    {
+        name: 'Coca Cola',
+        imageUrl:
+            './cocacola.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 5
+    },
+
+
+    {
+        name: 'Dodo BBG ',
+        imageUrl:
+            './dodoBBQ.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 2
+    },
+
+
+    {
+        name: 'Fanta',
+        imageUrl:
+            './fanta.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 5
+    },
+
+
+    {
+        name: 'Margherita',
+        imageUrl:
+            './margherita.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 2
+
+    },
+
+
+    {
+        name: 'Monster Energy Drink Ultra',
+        imageUrl:
+            './monsterenergydrinkultra.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 5
+    },
+
+
+    {
+        name: 'Sprite',
+        imageUrl:
+            './sprite.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 5
+    },
+
+
+    {
+        name: 'Suya Chicken Wings',
+        imageUrl:
+            './suyachickenwings.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 3
+    },
+
 ]
