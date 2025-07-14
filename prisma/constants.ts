@@ -273,6 +273,27 @@ export const products = [
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
+        categoryId: 2
+    },
+
+
+    {
+        name: 'Chicken Mushroom Pasta',
+        imageUrl:
+            '/chickenmushroompasta.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
+        categoryId: 3
+    },
+
+    {
+        name: 'Sausage Pasta',
+        imageUrl:
+        './sausagemushroompasta.avif',
+        ingredients: {
+            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
+        },
         categoryId: 3
     },
 
