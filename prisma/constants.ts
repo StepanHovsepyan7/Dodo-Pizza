@@ -167,10 +167,7 @@ export const products = [
     {
         name: 'Americano',
         imageUrl:
-            './americano.avif',
-        ingredients: {
-            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
-        },
+            '/americano.avif',
         categoryId: 4
 
     },
@@ -179,7 +176,7 @@ export const products = [
     {
         name: 'Beef Suya Pocket',
         imageUrl:
-            './beefsuyapocket.avif',
+            '/beefsuya.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -191,7 +188,7 @@ export const products = [
     {
         name: 'Chicken Suya',
         imageUrl:
-            './chickenSuya.avif',
+            '/suyachicken.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -202,10 +199,7 @@ export const products = [
     {
         name: 'Coca Cola',
         imageUrl:
-            './cocacola.avif',
-        ingredients: {
-            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
-        },
+            '/cocacola.avif',
         categoryId: 5
     },
 
@@ -213,7 +207,7 @@ export const products = [
     {
         name: 'Dodo BBG ',
         imageUrl:
-            './dodoBBQ.avif',
+            '/dodobbq.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -224,10 +218,7 @@ export const products = [
     {
         name: 'Fanta',
         imageUrl:
-            './fanta.avif',
-        ingredients: {
-            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
-        },
+            '/fanta.avif',
         categoryId: 5
     },
 
@@ -235,7 +226,7 @@ export const products = [
     {
         name: 'Margherita',
         imageUrl:
-            './margherita.avif',
+            '/margherita.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -247,7 +238,7 @@ export const products = [
     {
         name: 'Monster Energy Drink Ultra',
         imageUrl:
-            './monsterenergydrinkultra.avif',
+            '/monster.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -258,10 +249,7 @@ export const products = [
     {
         name: 'Sprite',
         imageUrl:
-            './sprite.avif',
-        ingredients: {
-            connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
-        },
+            '/sprit.avif',
         categoryId: 5
     },
 
@@ -269,7 +257,7 @@ export const products = [
     {
         name: 'Suya Chicken Wings',
         imageUrl:
-            './suyachickenwings.avif',
+            '/suyachicken.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -280,7 +268,7 @@ export const products = [
     {
         name: 'Chicken Mushroom Pasta',
         imageUrl:
-            '/chickenmushroompasta.avif',
+            '/mushpasta.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
@@ -290,11 +278,26 @@ export const products = [
     {
         name: 'Sausage Pasta',
         imageUrl:
-        './sausagemushroompasta.avif',
+            '/susagepasta.avif',
         ingredients: {
             connect: ingredients.slice(10, 40).map(i => ({ id: i.id })),
         },
         categoryId: 3
+    },
+
+
+    {
+        name: 'Schweppes Virigin Mojito',
+        imageUrl:
+            '/mojito.avif',
+        categoryId: 5
+    },
+
+    {
+        name: 'Beer Heineken ',
+        imageUrl:
+            '/beer.avif',
+        categoryId: 5
     },
 
 ]
